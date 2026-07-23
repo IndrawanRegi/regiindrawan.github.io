@@ -830,9 +830,11 @@ line-height:1.6;
 /* ===== RESPONSIVE ===== */
 
 @media (max-width:768px){
+
 #stats{
     margin-top:-30px;
 }
+
 nav{
     flex-direction:column;
     gap:18px;
@@ -871,20 +873,27 @@ header h1{
     text-align:center;
     gap:30px;
 }
+
 .about-text{
     text-align:center;
 }
-
-@media (max-width:768px){
 
 .about-text h3,
 .about-text h4{
     text-align:center;
 }
 
+/* Tambahkan ini */
 
-
+#experience .card p,
+#experience .card ul,
+#education .card p,
+#education .card ul,
+#languages .card p,
+#contact .card p{
+    text-align:left;
 }
+
 .experience-header{
     flex-direction:column;
     align-items:flex-start;
